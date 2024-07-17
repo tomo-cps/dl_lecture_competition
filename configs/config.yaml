@@ -1,0 +1,14 @@
+batch_size: 1024
+epochs: 80
+lr: 0.001
+
+device: cuda:0
+num_workers: 1
+seed: 1234
+use_wandb: True
+
+data_dir: data
+subject_id: 1
+
+# Evaluation
+model_path: /home/tomo/Documents/3master/dl_lecture/dl_lecture_competition_pub/outputs/2024-07-16/22-04-18/model_best.pt
